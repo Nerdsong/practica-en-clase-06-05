@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "background-color: black;">
+    
+    <h2 style= "color: rgb(241, 197, 1)">Ingresá la cantidad de BTC que querés cambiar</h2>
+    <div>
+        <input id = "valor_btc_ingresado" type="number" placeholder="BTC"></input>
+    </div>
+    <div style = "color:rgb(172, 171, 171)">
+        <h3>Seleccioná la divisa que necesitás</h3>
+    </div>
+    <div>
+        <button onclick="cambioEth()">ETH</button>
+    </div>
+    <div>   
+        <button onclick="cambioUsd()">USD</button>
+    </div>
+    <div>
+        <h3 id="mensaje_resultado" style = "color: antiquewhite;">Resultado</h3>
+    </div>
+    <script src= "cambiodivisa.js"></script>
+</body>
+</html>
